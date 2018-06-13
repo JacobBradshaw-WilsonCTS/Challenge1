@@ -17,6 +17,6 @@
       <Entry x:Name="Genre" Text="" />
       <Label Text="Enter Track Length:" />
       <Entry x:Name="Length" Text="" />
-      <Button x:Name="Addsong" Text="Add" Clicked="Added" />
+      <Button x:Name="Addsong" Text="Add" Clicked="Added"/>
     </StackLayout>
 </ContentPage>

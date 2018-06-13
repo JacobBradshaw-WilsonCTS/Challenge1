@@ -16,6 +16,8 @@ namespace Challenge1
         async void Added(object sender, EventArgs e)
         {
             DisplayAlert("Added", "Song has been added", "OK");
+            Addsong.Text = "Added";
+
         }
     }
 }
