@@ -10,7 +10,7 @@ namespace Challenge1
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new FirstPage());
         }
 
         protected override void OnStart()

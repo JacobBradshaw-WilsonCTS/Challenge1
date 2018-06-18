@@ -17,7 +17,10 @@ namespace Challenge1
         {
             DisplayAlert("Added", "Song has been added", "OK");
             Addsong.Text = "Added";
-
+        }
+        async void Welcome3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ThirdPage());
         }
     }
 }
